@@ -115,6 +115,10 @@ p {
     width: 23%
 }
 
+a { color: #00b7ff;
+    text-decoration: none; /*remove underline*/
+ }
+
 .bono h3,
 .bono p,
 .adam h3,
