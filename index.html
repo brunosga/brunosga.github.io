@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bruno Almeida | Web Design and Development Services</title>
-    <meta name="description" content="Take your business to the next level. Get a robust, visually pleasing website to showcase your brand.">
+    <title>Bruno Almeida | Web Design Portfolio</title>
+    <meta name="description" content="Here are some projects I have build using my web design and development skills.">
 
-    <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/apple-touch-icon.png">    
+	<link rel="apple-touch-icon" sizes="180x180" href="../assets/img/apple-touch-icon.png">    
     <link rel="icon" type="image/png" sizes="32x32" href="../assets/img//favicon-32x32.png">    
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/img//favicon-16x16.png">    
     <link rel="manifest" href="../assets/img/site.webmanifest">
 
 	<!-- Stylesheets -->
     <link rel="stylesheet" href="https://lunevedy.com/assets/css/lunevedy.min.css" />
-    <link rel="stylesheet" href="assets/css/custom.css" />
+    <link rel="stylesheet" href="../assets/css/custom.css" />
 
 	<!-- Google Fonts -->
 
@@ -42,11 +42,13 @@
 
 <body>
 
-  
+    <!-- menu and 'hero block' header -->
+    
+
     <nav class="theme-dark menu-sticky">
         <div class="container-menu menu-desktop">
-            <a href="#" class="brand">
-                <img src="assets/img/B.A.logo.png" alt="Sample website logo">
+            <a href="../index.html" class="brand">
+                <img src="../assets/img/B.A.logo.png" alt="Sample website logo">
             </a>
 
             <div class="container-menu-links">
@@ -58,53 +60,39 @@
                 </div>
 
                 <ul class="links-wrapper">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="portfolio/index.html">Portifolio</a></li>
-                    <li><a class="btn btn-solid" id="btn-cta" href="contact/index.html"><span>Contact</span> <i class="fa-solid fa-chevron-right"></i></a></li>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a class="btn btn-solid" id="btn-cta" href="../contact/index.html"><span>Sign in</span> <i class="fa-solid fa-chevron-right"></i></a></li>
                 </ul>
             </div>
 
         </div>
     </nav>
 
-    <header class="theme-dark hero-bg text-center-mobile desktop-min-height-80vh header-after-menu-sticky">
+	<!-- header starts here -->
 
-        <div class="container-text w-50">
-			<div class="badge">Front-End Developer</div>
-			
-            <h1 class="text-shadow">Bruno Almeida</h1>
-            <h2 class="text-shadow">I am an innovative Web Designer who loves to build human-friendly interfaces.</h2>
+    <header class="text-center-mobile text-center-desktop theme-dark">
+
+        <div class="container-text">
+            <h1>Portfolio</h1>
+            <h2>Below you can see a selection of my web design and development work. I use HTML, CSS and JavaScript to bring your ideas to life.</h2>
         </div>
-
-        <div class="container-btn">
-            <a href="portfolio/index.html" class="btn btn-solid"><i class="fa-regular fa-folder"></i><span>Portifolio</span></a>
-            <a href="contact/index.html" class="btn btn-outline"><i class="fa-regular fa-envelope"></i><span>Contact</span></a>
-        </div>
-
-        <div class="container-media">
-            <img src="assets/img/me3.png" alt="Placeholder image">
-        </div>
-
-        <div class="container-overlay"></div>
 
     </header>
-
-
+	<!-- header ends here -->
 
 
     <!-- main content with sections -->
     <main>
 
-        
-
-	<!-- section starts here -->
+        <!-- section starts here -->
 
 	<section class="theme-light section-selector-1">
 
 		<div class="col-1 text-center">
 			<h2>Recent projects</h2>
-			<h3>Below you can see some examples of my recent work. Check out my complete <a href="portfolio/index.html">portfolio</a>.
-                Have a project you would like to discuss? <a href="contact/index.html">Let's make something great together!</a></h3>
+			<h3>Below you can see some examples of my recent work. Check out my complete <a href="../index.html">portfolio</a>.
+                Have a project you would like to discuss? <a href="../contact/index.html">Let's make something great together!</a></h3>
 		</div>
 
 		<!-- Begin three-column flexbox grid -->
@@ -112,7 +100,7 @@
 
 			<div class="col-3">
 				<figure class="photos-zoom"><a href="../portfolio/smoothies/index.html">
-					<img src="assets/img/project-smoothie.jpg" alt="Placeholder image">
+					<img src="../assets/img/project-smoothie.jpg" alt="Placeholder image">
 				</a></figure>
 			<a href="../portfolio/smoothies/index.html" class="col-3-h3">Smooth Smoothies</a>	
 				<p>A multi-column, flexbox-based page layout and hero image with a tinted overlay.</p>
@@ -120,7 +108,7 @@
 
 			<div class="col-3">
 				<figure class="photos-zoom"><a href="../portfolio/fashion/index.html">
-					<img src="assets/img/project-fashion.jpg" alt="Placeholder image">
+					<img src="../assets/img/project-fashion.jpg" alt="Placeholder image">
 				</a></figure>
 			<a href="../portfolio/fashion/index.html" class="col-3-h3">Snazzy Fashion</a>	
 				<p>A web page for a fashion retailer with a background video that plays in a continuous loop.</p>
@@ -128,20 +116,44 @@
 
             <div class="col-3">
 				<figure class="photos-zoom"><a href="../portfolio/project-hero/index.html">
-					<img src="assets/img/project-hero.png" alt="Placeholder image">
+					<img src="../assets/img/project-hero.png" alt="Placeholder image">
 				</a></figure>
 			<a href="../portfolio/project-hero/index.html" class="col-3-h3">Hero Block Gallery</a>	
 				<p>A gallery of hero block elements with split-screen layouts and duotone images.</p>
 				<a href="../portfolio/project-hero/index.html" class="btn btn-solid btn-pill"><span>Learn more</span><i class="fas fa-arrow-right"></i></a></div>
 
+            <div class="col-3">
+				<figure class="photos-zoom"><a href="../portfolio/van-gogh/index.html">
+					<img src="../assets/img/project-van-gogh.png" alt="Placeholder image">
+				</a></figure>
+			<a href="../portfolio/van-gogh/index.html" class="col-3-h3">Vincent Van Gogh</a>	
+				<p>A summary of the life and work of Dutch artist Vincent van Gogh with an embeded video from YouTube.</p>
+				<a href="../portfolio/van-gogh/index.html" class="btn btn-solid btn-pill"><span>Learn more</span><i class="fas fa-arrow-right"></i></a></div>
+
+			<div class="col-3">
+				<figure class="photos-zoom"><a href="../portfolio/project-multi-column/index.html">
+					<img src="../assets/img/project-multi-col.png" alt="Placeholder image">
+				</a></figure>
+			<a href="../portfolio/project-multi-column/index.html" class="col-3-h3">Multi-column Layouts</a>	
+				<p>A gallery of multi-column, reponsive layouts.</p>
+			<a href="../portfolio/project-multi-column/index.html" class="btn btn-solid btn-pill"><span>Learn more</span><i class="fas fa-arrow-right"></i></a></div>
+
+			<div class="col-3">
+				<figure class="photos-zoom"><a href="../portfolio/crypto-wallet/index.html">
+					<img src="../assets/img/project-crypto-wallet.jpg" alt="Placeholder image">
+				</a></figure>
+			<a href="../portfolio/crypto-wallet/index.html" class="col-3-h3">Crypto Wallet</a>	
+				<p>A dark-themed responsive single-page website for a fictitious crypto wallet.</p>
+			<a href="../portfolio/crypto-wallet/index.html" class="btn btn-solid btn-pill"><span>Learn more</span><i class="fas fa-arrow-right"></i></a></div>
+
 		</div>
 		<!-- End three-column flexbox grid -->
 
 	</section>
-
+        
     </main>
 
-    
+    <!-- footer -->
 	<footer class="theme-dark text-center-desktop text-center-mobile">
 
 		<h2>Bruno Almeida, web designer</h2>
@@ -149,8 +161,8 @@
 		<h3>Excellence in digital creation</h3>
 
 		<ul class="footer-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="../portfolio/index.html">Portifolio</a></li>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="#">Portifolio</a></li>
             <li><a href="../contact/index.html"><span>Contact</span></a></li>
         </ul>
 
@@ -173,10 +185,10 @@
 		<p class="privacy"><a href="../Privacy.html">Privacy &amp; Legal</a></p>
 
 	</footer>
-       
+
     <script src="https://lunevedy.com/assets/js/lunevedy.js"></script>
 
-        <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
     <script>
     window.cookieconsent.initialise({
     "palette": {
@@ -184,7 +196,7 @@
         "background": "#000"
         },
         "button": {
-        "background": "#f90000"
+        "background": "#f1d600"
         }
     },
     "content": {
@@ -195,5 +207,3 @@
 
 </body>
 </html>
-
-
