@@ -1,0 +1,9 @@
+nav.theme-dark,
+nav.theme-dark ul.links-wrapper.active { background-color: var(--trans-000) }
+nav.theme-dark.menu-sticky.menu-on-scroll,
+nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper.active { background-color: var(--rose-600) }
+header.hero-bg > .container-overlay { background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)); } 
+
+.section-selector-1 { background-color: var(--trend-100) }
+.section-selector-1 h3 { line-height: 1.5; }
+
