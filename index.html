@@ -4,14 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bruno Almeida | Get in touch</title>
-    <meta name="description" content="Have a website project you would like to discuss? Let's make something great togheter!">
+    <title>Bruno Almeida | Web Design Portfolio</title>
+    <meta name="description" content="Here are some projects I have build using my web design and development skills.">
 
-    <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/apple-touch-icon.png">    
+	<link rel="apple-touch-icon" sizes="180x180" href="../assets/img/apple-touch-icon.png">    
     <link rel="icon" type="image/png" sizes="32x32" href="../assets/img//favicon-32x32.png">    
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/img//favicon-16x16.png">    
     <link rel="manifest" href="../assets/img/site.webmanifest">
-
 
 	<!-- Stylesheets -->
     <link rel="stylesheet" href="https://lunevedy.com/assets/css/lunevedy.min.css" />
@@ -62,8 +61,8 @@
 
                 <ul class="links-wrapper">
                     <li><a href="../index.html">Home</a></li>
-                    <li><a href="../portfolio/index.html">Portfolio</a></li>
-                    <li><a class="btn btn-solid" id="btn-cta" href="../contact/index.html"><span>Contact me</span> <i class="fa-solid fa-chevron-right"></i></a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a class="btn btn-solid" id="btn-cta" href="../contact/index.html"><span>Sign in</span> <i class="fa-solid fa-chevron-right"></i></a></li>
                 </ul>
             </div>
 
@@ -75,65 +74,87 @@
     <header class="text-center-mobile text-center-desktop theme-dark">
 
         <div class="container-text">
-            <h1>Contact</h1>
-            <h2>Have a project you'd like to discuss? Let's make something great together!</h2>
+            <h1>Portfolio</h1>
+            <h2>Below you can see a selection of my web design and development work. I use HTML, CSS and JavaScript to bring your ideas to life.</h2>
         </div>
-        <br></br>
+
     </header>
 	<!-- header ends here -->
-
 
 
     <!-- main content with sections -->
     <main>
 
-        <section>
-            
-           <section class="container-contact-form w-800px">
+        <!-- section starts here -->
 
-            <!-- Contact form starts here -->
-            <form id="contact-form" name="contact-form" accept-charset="utf-8" method="post" action="https://formspree.io/f/mqkozpkk">
+	<section class="theme-light section-selector-1">
 
-                <div class="contact-form-upper text-center">
-                    <p>Use the form below to let me know a little more about your objectives and I'll get back to you.</p>
-                </div>
+		<div class="col-1 text-center">
+			<h2>Recent projects</h2>
+			<h3>Below you can see some examples of my recent work. Check out my complete <a href="../index.html">portfolio</a>.
+                Have a project you would like to discuss? <a href="../contact/index.html">Let's make something great together!</a></h3>
+		</div>
 
-                <!-- Begin contact form fields -->
+		<!-- Begin three-column flexbox grid -->
+		<div class="flex-cols-3">
 
-                <div class="flex-row">
-                    <div class="item-name">
-                        <label for="full-name">Full Name</label>
-                        <input type="text" name="name" id="full-name" placeholder="Your First and Last Name." required="">
-                    </div>
-                    <div class="item-email">
-                        <label for="email-address">Email</label>
-                        <input type="email" name="_replyto" id="email-address" placeholder="Your Email Address." required="">
-                    </div>
-                </div>
+			<div class="col-3">
+				<figure class="photos-zoom"><a href="../portfolio/smoothies/index.html">
+					<img src="../assets/img/project-smoothie.jpg" alt="Placeholder image">
+				</a></figure>
+			<a href="../portfolio/smoothies/index.html" class="col-3-h3">Smooth Smoothies</a>	
+				<p>A multi-column, flexbox-based page layout and hero image with a tinted overlay.</p>
+			<a href="../portfolio/smoothies/index.html" class="btn btn-solid btn-pill"><span>Learn more</span><i class="fas fa-arrow-right"></i></a></div>
 
-                <div class="flex-row">
-                    <div class="item-textarea">
-                        <label for="message">Message</label>
-                        <textarea rows="5" name="message" id="message" placeholder="Your Message." required="" style="width: 765px; height: 203px;"></textarea>
-                    </div>
+			<div class="col-3">
+				<figure class="photos-zoom"><a href="../portfolio/fashion/index.html">
+					<img src="../assets/img/project-fashion.jpg" alt="Placeholder image">
+				</a></figure>
+			<a href="../portfolio/fashion/index.html" class="col-3-h3">Snazzy Fashion</a>	
+				<p>A web page for a fashion retailer with a background video that plays in a continuous loop.</p>
+			<a href="../portfolio/fashion/index.html" class="btn btn-solid btn-pill"><span>Learn more</span><i class="fas fa-arrow-right"></i></a></div>
 
-                    <div class="item-btn">
-                        <button id="btn-submit" type="submit"><span>Send</span><i class="fas fa-arrow-circle-right"></i></button>
-                    </div>
-                </div>
+            <div class="col-3">
+				<figure class="photos-zoom"><a href="../portfolio/project-hero/index.html">
+					<img src="../assets/img/project-hero.png" alt="Placeholder image">
+				</a></figure>
+			<a href="../portfolio/project-hero/index.html" class="col-3-h3">Hero Block Gallery</a>	
+				<p>A gallery of hero block elements with split-screen layouts and duotone images.</p>
+				<a href="../portfolio/project-hero/index.html" class="btn btn-solid btn-pill"><span>Learn more</span><i class="fas fa-arrow-right"></i></a></div>
 
-                <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
-                <!-- End contact form fields -->
+            <div class="col-3">
+				<figure class="photos-zoom"><a href="../portfolio/van-gogh/index.html">
+					<img src="../assets/img/project-van-gogh.png" alt="Placeholder image">
+				</a></figure>
+			<a href="../portfolio/van-gogh/index.html" class="col-3-h3">Vincent Van Gogh</a>	
+				<p>A summary of the life and work of Dutch artist Vincent van Gogh with an embeded video from YouTube.</p>
+				<a href="../portfolio/van-gogh/index.html" class="btn btn-solid btn-pill"><span>Learn more</span><i class="fas fa-arrow-right"></i></a></div>
 
-            </form><!-- Contact form ends here -->
-    </section><!-- End container for contact form -->
+			<div class="col-3">
+				<figure class="photos-zoom"><a href="../portfolio/project-multi-column/index.html">
+					<img src="../assets/img/project-multi-col.png" alt="Placeholder image">
+				</a></figure>
+			<a href="../portfolio/project-multi-column/index.html" class="col-3-h3">Multi-column Layouts</a>	
+				<p>A gallery of multi-column, reponsive layouts.</p>
+			<a href="../portfolio/project-multi-column/index.html" class="btn btn-solid btn-pill"><span>Learn more</span><i class="fas fa-arrow-right"></i></a></div>
 
-        </section>
+			<div class="col-3">
+				<figure class="photos-zoom"><a href="../portfolio/crypto-wallet/index.html">
+					<img src="../assets/img/project-crypto-wallet.jpg" alt="Placeholder image">
+				</a></figure>
+			<a href="../portfolio/crypto-wallet/index.html" class="col-3-h3">Crypto Wallet</a>	
+				<p>A dark-themed responsive single-page website for a fictitious crypto wallet.</p>
+			<a href="../portfolio/crypto-wallet/index.html" class="btn btn-solid btn-pill"><span>Learn more</span><i class="fas fa-arrow-right"></i></a></div>
 
+		</div>
+		<!-- End three-column flexbox grid -->
+
+	</section>
+        
     </main>
 
     <!-- footer -->
-    <footer class="theme-dark text-center-desktop text-center-mobile">
+	<footer class="theme-dark text-center-desktop text-center-mobile">
 
 		<h2>Bruno Almeida, web designer</h2>
 
@@ -141,8 +162,8 @@
 
 		<ul class="footer-links">
             <li><a href="../index.html">Home</a></li>
-            <li><a href="../portfolio/index.html">Portifolio</a></li>
-            <li><a href="#"><span>Contact</span></a></li>
+            <li><a href="#">Portifolio</a></li>
+            <li><a href="../contact/index.html"><span>Contact</span></a></li>
         </ul>
 
         <ul class="footer-icons">
