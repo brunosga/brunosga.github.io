@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Counter Test</title>
+
+    <style>
+        .red-text{
+            color:red;
+        }
+        .blue-text{
+            background-color:blue;
+        }
+        #myBtn {
+            padding: 4px 14px
+        }
+        #increase {
+            padding: 4px 14px;
+            background-color: green;
+        }
+        #decrease {
+            padding: 4px 14px;
+            background-color: red;
+        }
+        #box-number {
+            padding: 4px 14px;
+            background-color: yellow;
+            border: 1px solid black;
+            margin-top: 20px;
+            max-width: 200px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>Counter Test</h1>
+
+    <h2 id="heading-1">Nice Heading</h2>
+
+    <button id="myBtn"> Click me</button>
+
+    <button id="increase" class="btn-number">Increase Number +</button>
+    <button id="decrease" class="btn-number">Decrease Number -</button>
+
+    <div id="box-number">0</div>
+
+
+    <script>
+
+        const myButton = document.getElementById('myBtn');
+
+        myButton.addEventListener('click', changeColor);
+
+        function changeColor() {
+            const heading = document.getElementById('heading-1');
+            //heading.style.backgroundColor = "blue";
+            //heading.style.color = "white";
+            heading.classList.add('red-text');
+            heading.classList.add('blue-text');
+            heading.classList.remove('blue-text');
+        }
+
+        const myNumberButtons = document.querySelectorAll('.btn-number');
+
+        console.log("number of buttons: " + myNumberButtons.length);
+
+        myNumberButtons.forEach(function(button) {
+            button.addEventListener('click', changeNumber);
+        });
+
+        function changeNumber(event) {
+            // do stuff
+            console.log(event.target.id);
+            let btnType = event.target.id;
+            let boxNumber = document.getElementById('box-number').textContent;
+            boxNumber = parseInt(boxNumber);
+            
+            if (btnType === 'increase') {
+                console.log("increase");
+                boxNumber+1;
+            } 
+            else if (btnType === 'decrease') {
+                console.log("decrease");
+                boxNumber-1;
+            }
+            
+            document.getElementById('box-number').textContent = boxNumber;
+            console.log("Box number is now: " + boxNumber);
+            
+        }
+
+    </script>
+
+</body>
+</html>

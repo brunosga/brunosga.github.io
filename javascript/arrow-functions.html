@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<h2>Heading 1</h2>
+
+<h2>Heading 2</h2>
+
+<h2>Heading 3</h2>
+
+<h2>Heading 4</h2>
+    
+<script>
+
+const arrHeadings = document.querySelectorAll("h2");
+console.log(arrHeadings.length);
+for (let i = 0; i < arrHeadings.length; i++) {
+    //console.log(`Array element ${arrHeadings[i].textContent}`);
+}
+
+//const array1 = ['a', 'b', 'c'];
+
+//array1.forEach(el => console.log(el));
+
+arrHeadings.forEach(el => console.log(`Array element: ${el.textContent}`));
+
+const varNumber = 10;
+
+const varString = "Hello";
+sayHello();
+
+// Function declaration
+function sayHello() {
+    console.log("Hello");
+}
+
+// Function expression (anonymous function)
+const sayHello2 = function() {
+    console.log("Hello 2");
+}
+
+// Arrow function
+
+const msg = "Hello message";
+
+/*const sayHello3 = (msg) => {
+    console.log("Message is: " + msg);                      // Older way of writing (but easier to use it)
+   
+}
+*/
+
+const sayHello3 = msg => console.log(`Message is: ${msg}`); // Newer way of writing 
+
+
+sayHello3(msg);
+
+sayHello2();
+
+
+const doubleNum = (x) => (x * 2);
+
+const result = doubleNum(5);
+
+console.log(`The answer is: ${result}`);
+
+const arrUsers = ["Bridget","Carol","Christine","Deborah"];  
+
+console.log(`Array length ${arrUsers.length}`);
+
+console.log(`Person 0: ${arrUsers[0]}`);
+
+for (i = 0; i < arrUsers.length; i++) {
+    console.log(`Array element ${arrUsers}`);
+}
+
+
+</script>
+
+</body>
+</html>
