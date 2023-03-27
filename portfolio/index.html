@@ -8,8 +8,8 @@
     <meta name="description" content="Here are some projects I have build using my web design and development skills.">
 
 	<link rel="apple-touch-icon" sizes="180x180" href="../assets/img/apple-touch-icon.png">    
-    <link rel="icon" type="image/png" sizes="32x32" href="../assets/img//favicon-32x32.png">    
-    <link rel="icon" type="image/png" sizes="16x16" href="../assets/img//favicon-16x16.png">    
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon-32x32.png">    
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicon-16x16.png">    
     <link rel="manifest" href="../assets/img/site.webmanifest">
 
 	<!-- Stylesheets -->
@@ -37,6 +37,19 @@
     <!-- Cookie Consent -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 
+    <style>
+        .section-selector-2 a:link, .section-selector-2 a:visited {
+            color: black;
+            text-decoration-color: red;
+            text-underline-offset: 5px !important;
+        }
+        .section-selector-2 a:focus, .section-selector-2 a:hover, .section-selector-2 a:active {
+            color: rgb(rgb(73, 0, 0), green, blue);
+            text-decoration-color: black;
+            text-underline-offset: 5px !important;
+        }
+    </style>
+
 </head>
 
 
@@ -62,6 +75,7 @@
                 <ul class="links-wrapper">
                     <li><a href="../index.html">Home</a></li>
                     <li><a href="#">Portfolio</a></li>
+                    <li><a href="../portfolio/store/index.html">Store</a></li>
                     <li><a class="btn btn-solid" id="btn-cta" href="../contact/index.html"><span>Sign in</span> <i class="fa-solid fa-chevron-right"></i></a></li>
                 </ul>
             </div>
@@ -89,9 +103,9 @@
 
 	<section class="theme-light section-selector-1">
 
-		<div class="col-1 text-center">
+		<div class="col-1 text-center section-selector-2">
 			<h2>Recent projects</h2>
-			<h3>Below you can see some examples of my recent work. Check out my complete <a href="../index.html">portfolio</a>.
+			<h3>Below you can see some examples of my recent work. Check out my complete <a href="#">portfolio</a> and my<a href= "../portfolio/js/index.html"> UX-UI </a>projects.
                 Have a project you would like to discuss? <a href="../contact/index.html">Let's make something great together!</a></h3>
 		</div>
 
@@ -165,6 +179,7 @@
             <li><a href="#">Portifolio</a></li>
             <li><a href="../contact/index.html"><span>Contact</span></a></li>
         </ul>
+        
 
         <ul class="footer-icons">
             <li>
@@ -186,8 +201,6 @@
 
 	</footer>
 
-    <script src="https://lunevedy.com/assets/js/lunevedy.js"></script>
-
     <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
     <script>
     window.cookieconsent.initialise({
@@ -204,6 +217,8 @@
     }
     });
     </script>
+
+    <script src="https://lunevedy.com/assets/js/lunevedy.js"></script>
 
 </body>
 </html>
