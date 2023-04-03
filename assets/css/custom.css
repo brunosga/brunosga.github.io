@@ -1,5 +1,6 @@
 /* Add your custom CSS here */
 
+
 nav.theme-dark,
 nav.theme-dark ul.links-wrapper.active { background-color: var(--trans-000) }
 nav.theme-dark.menu-sticky.menu-on-scroll,
@@ -113,4 +114,10 @@ section {
     margin-left: auto;
     margin-right: auto;
     padding: 4% 4% 4% 4%
+}
+@media (max-width: 767px) {
+    nav.theme-dark.menu-sticky.menu-on-scroll,
+    nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper.active {
+        background-color: #000;
+    }
 }
