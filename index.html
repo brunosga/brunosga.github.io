@@ -38,15 +38,25 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 
     <style>
-        .section-selector-2 a:link, .section-selector-2 a:visited {
-            color: black;
-            text-decoration-color: red;
-            text-underline-offset: 5px !important;
+        .theme-light.section-selector-1 h3 a {
+            text-underline-offset: 9px;
         }
-        .section-selector-2 a:focus, .section-selector-2 a:hover, .section-selector-2 a:active {
-            color: rgb(rgb(73, 0, 0), green, blue);
+
+        .theme-light.section-selector-1 h3 a:not(.btn):link, 
+        .theme-light.section-selector-1 h3 a:not(.btn):visited {
+        	color: #000;
+            text-decoration-color: red;
+        }
+
+        .theme-light.section-selector-1 h3 a:not(.btn):focus, 
+        .theme-light.section-selector-1 h3 a:not(.btn):hover, 
+        .theme-light.section-selector-1 h3 a:not(.btn):active {
+        	color: #fff;
             text-decoration-color: black;
-            text-underline-offset: 5px !important;
+        }
+
+        header .badge {
+            font-size: calc(var(--font-size-base) * .85);
         }
     </style>
 
@@ -206,7 +216,7 @@
     });
     </script>
 
-    <script src="https://lunevedy.com/assets/js/lunevedy.js"></script>
+    <script src="assets/js/lunevedy.js"></script>
 
 </body>
 </html>
