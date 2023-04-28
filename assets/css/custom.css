@@ -1,11 +1,11 @@
 /* Add your custom CSS here */
 
 
-nav.theme-dark,
+/*nav.theme-dark,
 nav.theme-dark ul.links-wrapper.active { background-color: var(--trans-000) }
 nav.theme-dark.menu-sticky.menu-on-scroll,
 nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper.active { background-color: rgba(0, 0, 0, 0.5) }
-header.hero-bg > .container-overlay { background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)); } 
+header.hero-bg > .container-overlay { background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)); } */
 
 nav.theme-dark ul.links-wrapper li a:focus,
 nav.theme-dark ul.links-wrapper li a:hover,
