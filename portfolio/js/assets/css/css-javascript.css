@@ -1,19 +1,47 @@
-.container-menu.menu-desktop { background-color: var(--gray-800) }
-.container-menu.menu-mobile { background-color: var(--gray-800) }
-.container-menu.menu-mobile ul.mobile-display { background-color: var(--gray-800) }
-.container-menu a:link { font-weight: 600 !important; color: var(--white-000) } 
-.container-menu a:visited { font-weight: 600 !important; color: var(--gray-200) }
-.container-menu a#btn-cta:link,
-.container-menu a#btn-cta:visited { color: var(--white-000); font-weight: 600 }
-.container-menu .item-icon .bar1,.container-menu .item-icon .bar2,.container-menu .item-icon .bar3 { background-color: var(--white-000) }
-.container-menu a#btn-cta:link,
-.container-menu a#btn-cta:visited { background-color: var(--blue-500) }
-.container-menu a#btn-cta:focus,
-.container-menu a#btn-cta:hover,
-.container-menu a#btn-cta:active { background-color: var(--blue-400) }
-.container-menu a#btn-cta:focus,
-.container-menu a#btn-cta:hover,
-.container-menu a#btn-cta:active { border-color: var(--blue-400) }
+.container-menu.menu-desktop { background-color: black }
+.container-menu.menu-mobile { background-color:black  }
+.container-menu.menu-mobile ul.mobile-display { background-color: black }
+nav.container-menu a:link { font-weight: 600 !important; color: var(--red-600) } 
+nav.container-menu a:visited { font-weight: 600 !important; color: var(--gray-200) }
+nav.container-menu a#btn-cta:link,
+nav.container-menu a#btn-cta:visited { color: black; font-weight: 600 }
+nav.container-menu .item-icon .bar1,.container-menu .item-icon .bar2,.container-menu .item-icon .bar3 { background-color: var(--white-000) }
+nav.container-menu a#btn-cta:link,
+nav.container-menu a#btn-cta:visited { background-color: var(--white-000) }
+nav.container-menu a#btn-cta:focus,
+nav.container-menu a#btn-cta:hover,
+nav.container-menu a#btn-cta:active { background-color: var(--white-000) }
+
+nav.container-menu ul.links-wrapper li a:focus,
+nav.container-menu ul.links-wrapper li a:hover,
+nav.container-menu ul.links-wrapper li a:active { color: var(--red-600) }
+
+nav.container-menu a#btn-cta:focus,
+nav.container-menu a#btn-cta:hover,
+nav.container-menu a#btn-cta:active { border-color: var(--red-600) }
+
+nav.container-menu a#btn-cta:focus,
+nav.container-menu a#btn-cta:hover,
+nav.container-menu a#btn-cta:active { color: var(--red-600) }
+
+/*nav.theme-dark {
+    background-color: var(--black-000);
+    width: 100%;
+    min-height: 72px;
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 4%;
+    overflow: visible;
+}
+
+.menu-sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}*/
 
 header.hero-block-js { 
     min-height: 200px !important;
@@ -22,6 +50,10 @@ header.hero-block-js {
     text-align: left;
 }
 
+header.hero-block {
+    background-color:  #C53030;
+} 
+
 header.hero-block-js .hero-text-container { padding: 0 12% 2% 9% }   
 
 header.hero-block-js .hero-text-container h1 {
@@ -29,7 +61,7 @@ header.hero-block-js .hero-text-container h1 {
     letter-spacing: -1px; 
 }
 
-header.hero-block-js .hero-text-container h1 span { color: var(--gray-700); font-weight: 600; }
+header.hero-block-js .hero-text-container h1 span { color: black; font-weight: 600; }
 
 header.hero-block-js .hero-text-container h2 {
     font-size: calc(20px + (28 - 20) * ((100vw - 320px) / (1920 - 320)));
@@ -38,6 +70,31 @@ header.hero-block-js .hero-text-container h2 {
 
 header.hero-block-js .hero-text-container img {
     margin-top: 28px
+}
+
+footer ul.footer-links li a:link, footer ul.footer-links li a:visited {
+    font-size: calc(17px + (20 - 17) * ((100vw - 320px)/(1920 - 320)));
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 7px;
+    text-decoration-color: var(--red-600);
+    color: var(--white-000);
+    transition: all 0.2s linear;
+}
+
+footer p.privacy a:link, footer p.privacy a:hover {
+    font-size: calc(17px + (20 - 17) * ((100vw - 320px)/(1920 - 320)));
+    text-decoration: underline;
+    text-decoration-thickness: auto;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 7px;
+    text-decoration-color: var(--red-600);
+    color: var(--white-000);
+    transition: all 0.2s linear;
+}
+
+footer.theme-dark {
+    background-color: var(--black-000);
 }
 
 
